@@ -1,1 +1,2 @@
-config.name: value
+config:
+  name: value
