@@ -1,5 +1,5 @@
 config:
-  DATABASE_URL: jdbc:postgresql://localhost:${DATABASE_PORT}/${DATABASE_NAME}
+  DATABASE_URL: jdbc:postgresql://localhost:${config.DATABASE_PORT}/${config.DATABASE_NAME}
   DATABASE_USERNAME: admin
   DATABASE_PASSWORD: test
   DATABASE_PORT: 5433
