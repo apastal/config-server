@@ -2,7 +2,7 @@ config:
   DATABASE_URL: jdbc:postgresql://localhost:${config.DATABASE_PORT}/${config.DATABASE_NAME}
   DATABASE_USERNAME: admin
   DATABASE_PASSWORD: test
-  DATABASE_PORT: 5433
+  DATABASE_PORT: 5434
   DATABASE_NAME: vacation-db
   ACCOUNTING_SERVICE_NAME: accounting-service
   RESOURCES_SERVICE_NAME: resources-service
